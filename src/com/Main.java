@@ -12,5 +12,14 @@ public class Main {
 		auth.setAuthor("Shatrughan");
 		 b.setAuthor(auth);
 		System.out.println(b);
+		
+		Book b1=new Book();
+		
+		b1.setTitle("Harry title");
+		Author auth1=new Author();
+		auth1.setName("Harry");
+		auth1.setAuthor("Harry");
+		 b1.setAuthor(auth1);
+		System.out.println(b1);
 	}
 }
